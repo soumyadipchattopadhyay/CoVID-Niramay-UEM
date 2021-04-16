@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    android:fillViewport="true"
+    tools:context=".faq">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+        <RelativeLayout>
+    <TextView
+        android:id="@+id/faqhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff0"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="Frequently Asked Questions" />
+        </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="30dp"
+        android:layout_height="150dp"
+        android:id="@+id/faq"
+        android:layout_below="@id/faqhead"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        app:cardBackgroundColor="#f20"
+        app:cardCornerRadius="20dp"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/faq1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="#fff"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="What is corona virus?\n\n Corona viruses are a large family of viruses which may cause illness in animals or humans. In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). " />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/faq2"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        app:cardBackgroundColor="#040"
+        app:cardCornerRadius="20dp"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/faq3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:layout_centerInParent="true"
+                android:paddingRight="10dp"
+                android:text="How does COVID-19 spread ?\n\n
+People can catch COVID-19 from others who have the virus. The
+disease can spread from person to person through small droplets from
+the nose or mouth which are spread when a person with COVID-19
+coughs or exhales. These droplets land on objects and surfaces
+around the person."
+                android:textColor="#fff" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/faq"
+        android:id="@+id/faq2"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        app:cardBackgroundColor="#20f"
+        app:cardCornerRadius="20dp"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/faq4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="#fff"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="What are the symptoms of COVID-19 ?\n\n The common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasalmcongestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Some people become infected but don’t develop any symptoms and don't feel unwell. Most people
+(about 80%) recover from the disease without needing special treatment.People with fever, cough and difficulty breathing should seek medical
+attention.  " />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/faq2"
+            android:id="@+id/faq5"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            app:cardBackgroundColor="#200"
+            app:cardCornerRadius="20dp"
+
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/faq6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="#fff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Who is at risk of developing severe illness ?\n\n
+While we are still learning about how COVID-2019 affects people,
+older persons and persons with pre-existing medical conditions (such
+as high blood pressure, heart disease, lung disease, cancer or
+diabetes) appear to develop serious illness more often than others.  " />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/faq5"
+            android:id="@+id/faq7"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            app:cardBackgroundColor="#420"
+            app:cardCornerRadius="20dp"
+
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/faq99"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="#fff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="How long is the incubation period for COVID-19?\n\n
+The “incubation period” means the time between catching the virus
+and beginning to have symptoms of the disease. Most estimates of
+the incubation period for COVID-19 range from 1-14 days, most
+commonly around five days. These estimates will be updated as more
+data become available.
+  " />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <Button
+            android:id="@+id/know"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="200dp"
+            android:layout_height="82dp"
+            android:layout_below="@id/faq7"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="Click Here to Know More "
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+    </TableLayout>
+</ScrollView>

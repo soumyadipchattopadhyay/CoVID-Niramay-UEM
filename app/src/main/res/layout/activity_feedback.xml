@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".Feedback">
+
+
+    <TextView
+        android:id="@+id/links"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:textColor="#ddd"
+        android:textStyle="bold"
+        android:text="External Links" />
+
+    <Button
+        android:id="@+id/link1"
+        android:layout_width="170dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageView"
+        android:layout_height="wrap_content"
+        android:text="Public Health Information" />
+    <Button
+        android:id="@+id/link2"
+        android:layout_width="170dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/link1"
+        android:layout_height="wrap_content"
+        android:text="How soap kills Coronavirus" />
+    <Button
+        android:id="@+id/link3"
+        android:layout_width="170dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/link2"
+        android:layout_height="wrap_content"
+        android:text="CoVID-19 viral info" />
+    <Button
+        android:id="@+id/link4"
+        android:layout_width="170dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/link3"
+        android:text="3D Structural Models" />
+    <Button
+        android:id="@+id/link5"
+        android:layout_width="170dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/link4"
+        android:layout_height="wrap_content"
+        android:text="Corona Proteases" />
+
+    <Button
+        android:id="@+id/link6"
+        android:layout_width="170dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/link5"
+        android:layout_height="wrap_content"
+        android:text="Country-wise viral sequence " />
+
+    <Button
+        android:id="@+id/link7"
+        android:layout_width="170dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/link6"
+        android:layout_height="wrap_content"
+        android:text="sARS-COV-2  Spike protein" />
+
+    <Button
+        android:id="@+id/link8"
+        android:layout_width="170dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/link7"
+        android:layout_height="wrap_content"
+        android:text="Covid 19 transmission" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="184dp"
+        android:layout_height="105dp"
+        android:layout_below="@id/links"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/click" />
+
+
+</RelativeLayout>

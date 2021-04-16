@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Govt"
+      android:background="#060E29">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/distance"
+        android:layout_width="342dp"
+        android:layout_height="201dp"
+        android:layout_above="@id/police"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="141dp"
+        android:src="@drawable/source" />
+
+
+    <Button
+        android:id="@+id/ambu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:backgroundTint="#E81414"
+        android:text="State Wise Helpline Number" />
+
+    <Button
+        android:id="@+id/police"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        android:layout_marginLeft="10dp"
+        android:textSize="10dp"
+        android:layout_alignParentLeft="true"
+        android:text="Call Local\n Police Station" />
+
+    <Button
+        android:id="@+id/src"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="10dp"
+        android:text="  Senior Citizen \nHelpline" />
+
+    <Button
+        android:id="@+id/child"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        android:text="   Call \nChild Helpline" />
+    <Button
+        android:id="@+id/almora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/textView6"
+        android:textSize="10dp"
+        android:layout_alignParentLeft="true"
+        android:text="Railway\nenquiry" />
+
+    <Button
+        android:id="@+id/bageshwar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView6"
+        android:layout_centerInParent="true"
+        android:textSize="10dp"
+        android:text="Fire\nService" />
+
+    <Button
+        android:id="@+id/chamoli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textView6"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_centerInParent="true"
+        android:text="National\nHelpline" />
+
+    <Button
+        android:id="@+id/derha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/almora"
+        android:textSize="10dp"
+        android:layout_alignParentLeft="true"
+        android:text="CoVID\nHelpline" />
+
+    <Button
+        android:id="@+id/haridwar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/almora"
+        android:layout_centerInParent="true"
+        android:textSize="10dp"
+        android:text="Disaster \nManagement" />
+
+    <Button
+        android:id="@+id/naini"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/almora"
+        android:layout_marginRight="10dp"
+        android:layout_centerInParent="true"
+        android:text="Aids\nHelpline" />
+
+    <Button
+        android:id="@+id/pohri"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/naini"
+        android:textSize="10dp"
+        android:layout_alignParentLeft="true"
+        android:text="Pohri\nGarhwal" />
+
+    <Button
+        android:id="@+id/pito"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/naini"
+        android:layout_centerInParent="true"
+        android:textSize="10dp"
+        android:text="Pithoragarh" />
+
+    <Button
+        android:id="@+id/tehri"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textSize="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/naini"
+        android:layout_marginRight="10dp"
+        android:layout_centerInParent="true"
+        android:text="Tehri\nGarhwal" />
+
+    <Button
+        android:id="@+id/udham"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/pohri"
+        android:textSize="10dp"
+        android:layout_alignParentLeft="true"
+        android:text="Udham Singh\nNagar" />
+
+    <Button
+        android:id="@+id/rudra"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/pohri"
+        android:layout_centerInParent="true"
+        android:textSize="10dp"
+        android:text="Rudraprayag" />
+
+    <Button
+        android:id="@+id/uttar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textSize="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/pohri"
+        android:layout_marginRight="10dp"
+        android:layout_centerInParent="true"
+        android:text="Uttarkashi" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/police"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:text=" " />
+
+
+</RelativeLayout>

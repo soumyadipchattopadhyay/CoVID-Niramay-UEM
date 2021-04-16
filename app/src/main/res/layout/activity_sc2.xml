@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    tools:context=".sc2">
+
+    <ImageView
+        android:id="@+id/fuel"
+        android:layout_width="200dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/hand" />
+
+    <TextView
+        android:id="@+id/heading2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fuel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:text="-: Salient Features :-"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/tosc3"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawableRight="@android:drawable/ic_media_ff"
+        android:elevation="10dp"
+        android:text="Next"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/tosc1"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@android:drawable/ic_media_rew"
+        android:elevation="10dp"
+        android:text="Prev"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/features"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heading2"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="One of the unique features of this application is CoVID-19 Self Test. Here, with the help of an A.I. Based module Hosted by Apollo Groups of Hospitals, you can check yourself whether you are corona virus suspect or not.\n\n You can buy groceries and essential medicines with this app\n\n Food shelters near your location can be spotted with just a click\n\nList of Hospitals available ins the country can be founded at one touch\n\nNational Emergency and Helpline numbers have been incorporated in this app\n\n And many more ...."
+        android:textColor="#fff" />
+
+</RelativeLayout>

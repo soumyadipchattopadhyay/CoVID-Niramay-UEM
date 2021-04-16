@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#060E29"
+    tools:context=".Cont">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-: Developed by :-"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Soumyadip Chattopadhyay"
+            android:textStyle="bold"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="24dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:layout_below="@id/textView"
+           />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="30dp"
+            android:text="Student (4th Semester)\nB.Sc. Computer Science (Hons.)\nBangabasi College\n\nPrimary Developer (Functionality and UI)" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView5"
+        android:layout_marginLeft="30dp"
+        android:text="Department of Biotechnology\nUniversity of Engineering and Management, Kolkata\n\nResource Collection"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="45dp"
+        android:text="Dipro Mukherjee\n   and\nRitwik Banerjee"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

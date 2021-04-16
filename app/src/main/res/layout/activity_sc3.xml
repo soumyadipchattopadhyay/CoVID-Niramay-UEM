@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    tools:context=".sc3">
+
+    <ImageView
+        android:id="@+id/fuel"
+        android:layout_width="200dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/sc" />
+
+    <TextView
+        android:id="@+id/heading3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fuel"
+        android:layout_marginTop="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:text="Hope You will find this\n          app helpful"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/finish"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawableRight="@android:drawable/checkbox_on_background"
+        android:elevation="10dp"
+        android:text="Finish"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/backsc2"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@android:drawable/ic_media_rew"
+        android:text="Prev"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/hope"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heading3"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="This application contains all possible useful resources and helpline numbers that are essential in this pandemic situation caused by CoVID-19 all over the world. \n\nHope this  application will help  everyone  to  avail several  services under one place."
+        android:textColor="#fff" />
+
+</RelativeLayout>

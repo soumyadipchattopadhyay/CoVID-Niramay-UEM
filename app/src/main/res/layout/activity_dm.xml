@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#061239"
+    android:layout_height="match_parent"
+    tools:context=".Dm">
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bbank"
+        android:text="Blood Banks"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/hm"
+        android:text="Health Ministry\nWebsites"
+        android:layout_below="@id/bbank"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/hospi"
+        android:text="Hospital Details"
+        android:layout_below="@id/hm"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ambu"
+        android:layout_below="@id/hospi"
+        android:text="pharmacies nearby"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

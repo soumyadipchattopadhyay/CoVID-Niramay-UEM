@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectTransport"
+    android:background="#061230">
+
+    <Button
+        android:id="@+id/train"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="IRCTC"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Button
+        android:id="@+id/plane"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="flight\nenquiry "
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Button
+        android:id="@+id/cab"
+        android:layout_below="@id/bus"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="cabs and\ntaxis "
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+
+        android:layout_marginLeft="10dp"
+        />
+
+    <Button
+        android:id="@+id/bus"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Bus\nservice "
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="206dp"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/bus"
+        android:layout_marginBottom="20dp"
+        android:layout_height="174dp"
+        app:srcCompat="@android:drawable/ic_dialog_map" />
+
+
+</RelativeLayout>
